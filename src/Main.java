@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
 
-    private static List<Integer> numbers = new ArrayList<>();
+    private static final List<Integer> numbers = new ArrayList<>();
 
     private synchronized static void inc(int number) {
         numbers.add(number);
